@@ -2,7 +2,7 @@ module.exports = {
   async headers() {
     return [
       {
-        source: '/OneSignalSDKWorker.js',
+        source: '/static/OneSignalSDKWorker.js',
         headers: [
           {
             key: 'Service-Worker-Allowed',
@@ -11,7 +11,7 @@ module.exports = {
         ]
       },
       {
-        source: '/OneSignalSDKUpdaterWorker.js',
+        source: '/static/OneSignalSDKUpdaterWorker.js',
         headers: [
           {
             key: 'Service-Worker-Allowed',
